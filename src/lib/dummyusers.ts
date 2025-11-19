@@ -8,9 +8,9 @@ export type User = {
 };
 
 export const dummyUsers: User[] = [
-  { id: 1, name: 'Alice (London)', location: { lat: 51.505, lng: -0.09 } },
-  { id: 2, name: 'Bob (Paris)', location: { lat: 48.8566, lng: 2.3522 } },
-  { id: 3, name: 'Charlie (New York)', location: { lat: 40.7128, lng: -74.0060 } },
-  { id: 4, name: 'Diana (Tokyo)', location: { lat: 35.6895, lng: 139.6917 } },
-  { id: 5, name: 'Eve (Sydney)', location: { lat: -33.8688, lng: 151.2093 } },
+  { id: 1, name: 'Alice', location: { lat: 25.345, lng: 55.375 } },
+  { id: 2, name: 'Bob', location: { lat: 25.320, lng: 55.360 } },
+  { id: 3, name: 'Charlie', location: { lat: 25.310, lng: 55.390 } },
+  { id: 4, name: 'Diana', location: { lat: 25.355, lng: 55.340 } },
+  { id: 5, name: 'Eve', location: { lat: 25.330, lng: 55.370 } },
 ];
